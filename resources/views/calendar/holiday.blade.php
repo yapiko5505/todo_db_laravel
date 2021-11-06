@@ -54,9 +54,9 @@
         <tbody>
     </table>
     <a href="{{ url('/index') }}">カレンダーに戻る</a><br>
-    <a href="{{ url('/logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="dropdown-item">
-        ログアウト
-    </a>
+    <!-- <a href="{{ url('/logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="dropdown-item"> -->
+        <!-- ログアウト -->
+    <!-- </a> -->
     <form id="logout-form" action="http://127.0.0.1:8000/logout" method="POST" class="d-none">
         @csrf
     </form>
