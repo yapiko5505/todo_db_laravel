@@ -1,7 +1,7 @@
 # todo_db_laravel
-===
 
-## 使用言語、データベース
+
+# 使用言語、データベース
 HTML / CSS、PHP、MySQL
 
 # 制作目的
